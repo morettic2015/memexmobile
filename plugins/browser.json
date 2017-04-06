@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-admob": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        },
+        "cordova-connectivity-monitor": {
+            "PACKAGE_NAME": "br.com.morettic.gameone.MemexMobile"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"
+        id="br.com.morettic.gameone.MemexMobile"
+        version="10.9.99"
+        android-versionCode="199999"
+        windows-packageVersion="10.0.5">
+    <name>MEME RUN X</name>
+    <description>
+        Meme x RUN Awesome MEMEX RUN. By morettic.com.br
+    </description>
+    <!-- <preference name="DisallowOverscroll" value="true"/> -->
+    <preference name="Orientation" value="portrait" />
+    <icon src="www/res/icons/android/72.png" platform="android" />
+    <preference name="android-minSdkVersion" value="14"/>
+    <preference name = "SplashScreen" value = "sprites/screen.png" />
+    <preference name = "SplashScreenDelay" value = "5000" />
+    <preference name = "SplashMaintainAspectRatio" value = "false" />
+
+    <author email="gameone@morettic.com.br" href="http://morettic.com.br">
+        Gammers Morettic 2017
+    </author>
+    <content src="index.html"/>
+    <plugin name="cordova-plugin-whitelist" spec="1"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <platform name="android">
+        <allow-intent href="market:*"/>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+    </platform>
+</widget>

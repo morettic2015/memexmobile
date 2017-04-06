@@ -1,0 +1,14 @@
+http://stackoverflow.com/questions/26449512/how-to-create-signed-apk-file-using-cordova-command-line-interface
+
+
+
+D:\projects\Phonegap\Example> cordova build --release android
+
+root@RAGNAR:/mnt/c/Users/LuisAugusto/AndroidStudioProjects# jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore MEMEX_RUN.keystore MEMEX.apk MEMEX_RUN
+C:\Users\LuisAugusto\AppData\Local\Android\sdk\build-tools\22.0.1>zipalign.exe -v 4 MEMEX.apk MEMEX_ALIGNED.apk
+
+
+
+canal do anúncio ao integrar o código.
+ID do aplicativo: ca-app-pub-5450650045028162~7418720298
+ID do bloco de anúncios: ca-app-pub-5450650045028162/8895453492

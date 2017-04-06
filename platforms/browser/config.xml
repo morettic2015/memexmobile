@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="103021" id="br.com.morettic.gameone.MemexMobile" version="10.0.11" windows-packageVersion="10.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>MEME RUN X</name>
+    <description>
+        Meme x RUN Awesome MEMEX RUN. By morettic.com.br
+    </description>
+    <icon platform="android" src="www/res/icons/android/72.png" />
+    <author email="gameone@morettic.com.br" href="http://morettic.com.br">
+        Gammers Morettic 2017
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="SplashScreen" value="sprites/screen.png" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+</widget>
